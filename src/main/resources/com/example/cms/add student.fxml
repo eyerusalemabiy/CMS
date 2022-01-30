@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;">
+         <children>
+            <Label fx:id="addlable" layoutX="177.0" layoutY="7.0" text="Add Student">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="fnamelable" layoutX="60.0" layoutY="81.0" style="-fx-background-color: lightgreen;" text="First name" />
+            <Label fx:id="lnamelabel" layoutX="60.0" layoutY="124.0" style="-fx-background-color: lightgreen;" text="Last name" />
+            <Label fx:id="sexlabel" layoutX="76.0" layoutY="168.0" style="-fx-background-color: lightgreen;" text="sex :" />
+            <RadioButton fx:id="malebtn" layoutX="201.0" layoutY="168.0" mnemonicParsing="false" style="-fx-background-color: lightgreen;" text="Male" />
+            <RadioButton fx:id="femalebtn" layoutX="364.0" layoutY="168.0" mnemonicParsing="false" style="-fx-background-color: lightgreen;" text="Female" />
+            <Label fx:id="phonebtn" layoutX="61.0" layoutY="224.0" style="-fx-background-color: lightgreen;" text="Phone no" />
+            <Label fx:id="adrbtn" layoutX="69.0" layoutY="299.0" style="-fx-background-color: lightgreen;" text="Adress" />
+            <TextField layoutX="151.0" layoutY="220.0" />
+            <TextField layoutX="136.0" layoutY="263.0" prefHeight="105.0" prefWidth="178.0" />
+            <Button fx:id="cancelbtn" layoutX="414.0" layoutY="335.0" mnemonicParsing="false" style="-fx-background-color: lightgreen;" text="Cancel" />
+            <Button fx:id="addbtn" layoutX="510.0" layoutY="335.0" mnemonicParsing="false" style="-fx-background-color: lightgreen;" text="Add" />
+            <TextField layoutX="151.0" layoutY="77.0" />
+            <TextField layoutX="151.0" layoutY="120.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
