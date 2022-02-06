@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;">
+         <children>
+            <Label fx:id="managelabel" layoutX="183.0" layoutY="14.0" text="Manage">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+            <Label fx:id="idlabel" layoutX="35.0" layoutY="108.0" style="-fx-background-color: lightgreen;" text="Id" />
+            <Label fx:id="llabel" layoutX="26.0" layoutY="154.0" style="-fx-background-color: lightgreen;" text="Label" />
+            <Button fx:id="remlabel" layoutX="28.0" layoutY="332.0" mnemonicParsing="false" style="-fx-background-color: lightgreen;" text="Remove" />
+            <Button fx:id="editlabel" layoutX="122.0" layoutY="332.0" mnemonicParsing="false" style="-fx-background-color: lightgreen;" text="Edit" />
+            <Button fx:id="addlabel" layoutX="202.0" layoutY="332.0" mnemonicParsing="false" style="-fx-background-color: lightgreen;" text="Add" />
+            <Label fx:id="hourlabel" layoutX="24.0" layoutY="192.0" style="-fx-background-color: lightgreen;" text="Houre" />
+            <ComboBox layoutX="90.0" layoutY="189.0" prefWidth="150.0" />
+            <TextField layoutX="91.0" layoutY="105.0" style="-fx-background-color: white;" />
+            <TextField layoutX="91.0" layoutY="150.0" style="-fx-background-color: white;" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
