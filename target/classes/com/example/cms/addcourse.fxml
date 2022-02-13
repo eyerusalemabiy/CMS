@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;">
+         <children>
+            <Label fx:id="addlabel" layoutX="245.0" layoutY="14.0" text="Add">
+               <font>
+                  <Font name="System Bold" size="60.0" />
+               </font>
+            </Label>
+            <Label fx:id="llabel" layoutX="43.0" layoutY="131.0" style="-fx-background-color: lightgreen;" text="Label" />
+            <Label fx:id="hourelabel" layoutX="41.0" layoutY="183.0" style="-fx-background-color: lightgreen;" text="Houre" />
+            <Button fx:id="cancelbtn" layoutX="141.0" layoutY="299.0" mnemonicParsing="false" style="-fx-background-color: lightgreen;" text="Cancel" />
+            <Button fx:id="addbtn" layoutX="323.0" layoutY="299.0" mnemonicParsing="false" style="-fx-background-color: lightgreen;" text="Add" />
+            <TextField layoutX="109.0" layoutY="127.0" />
+            <ComboBox layoutX="108.0" layoutY="179.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
